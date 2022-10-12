@@ -80,7 +80,7 @@ const (
 
 // Logging level strings
 var (
-	levelStrings = [...]string{"FNST", "FINE", "DEBG", "TRAC", "INFO", "WARN", "EROR", "CRIT"}
+	levelStrings = [...]string{"ALL", "FINE", "DEBUG", "TRACE", "INFO", "WARN", "ERROR", "FATAL"}
 )
 
 func (l Level) String() string {
